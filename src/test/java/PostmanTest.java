@@ -19,7 +19,7 @@ public class PostmanTest {
                 .then()
                 .statusCode(200)
                 .contentType(ContentType.JSON)
-                .body("data", equalTo("some data")/* --> ваша проверка здесь <-- */)
+                .body("data", equalTo("some")/* --> ваша проверка здесь <-- */)
         ;
     }
 
